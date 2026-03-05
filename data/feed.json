@@ -1,0 +1,50 @@
+[  
+  {  
+    "platform": "LinkedIn",  
+    "date": "2026-03-05",  
+    "topic": "AI in Business",  
+    "preview": "How AI is transforming industries",  
+    "image": "https://example.com/linkedin_ai_business.jpg",  
+    "url": "https://linkedin.com/example1"  
+  },  
+  {  
+    "platform": "TikTok",  
+    "date": "2026-03-05",  
+    "topic": "Dance Challenge",  
+    "preview": "Join the hottest dance challenge!",  
+    "image": "https://example.com/tiktok_dance_challenge.jpg",  
+    "url": "https://tiktok.com/example2"  
+  },  
+  {  
+    "platform": "Instagram",  
+    "date": "2026-03-05",  
+    "topic": "Sunset Photography",  
+    "preview": "Capturing the beauty of sunsets",  
+    "image": "https://example.com/instagram_sunset.jpg",  
+    "url": "https://instagram.com/example3"  
+  },  
+  {  
+    "platform": "YouTube",  
+    "date": "2026-03-05",  
+    "topic": "Cooking Tutorial",  
+    "preview": "Learn how to cook delicious meals",  
+    "image": "https://example.com/youtube_cooking_tutorial.jpg",  
+    "url": "https://youtube.com/example4"  
+  },  
+  {  
+    "platform": "Twitter",  
+    "date": "2026-03-05",  
+    "topic": "Tech News",  
+    "preview": "Latest updates in tech world",  
+    "image": "https://example.com/twitter_tech_news.jpg",  
+    "url": "https://twitter.com/example5"  
+  },  
+  {  
+    "platform": "LinkedIn",  
+    "date": "2026-03-05",  
+    "topic": "Career Growth",  
+    "preview": "Tips for advancing your career",  
+    "image": "https://example.com/linkedin_career_growth.jpg",  
+    "url": "https://linkedin.com/example6"  
+  }  
+]
