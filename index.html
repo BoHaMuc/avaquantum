@@ -1,1 +1,96 @@
-<!DOCTYPE html>\n<html lang="de">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <meta name="description" content="Ava Quantum – KI-Avatar für die Zukunft der Arbeit und AI Produktivität.">\n    <title>Ava Quantum – KI-Avatar | Future of Work | AI Productivity</title>\n    <meta property="og:title" content="Ava Quantum – KI-Avatar | Future of Work | AI Productivity">\n    <meta property="og:description" content="Ava Quantum – KI-Avatar für die Zukunft der Arbeit und AI Produktivität.">\n    <meta property="og:image" content="/images/og-image.png">\n    <meta property="og:url" content="https://avquantum.com">\n    <meta name="twitter:card" content="summary_large_image">\n    <meta name="twitter:title" content="Ava Quantum – KI-Avatar | Future of Work | AI Productivity">\n    <meta name="twitter:description" content="Ava Quantum – KI-Avatar für die Zukunft der Arbeit und AI Produktivität.">\n    <meta name="twitter:image" content="/images/twitter-image.png">\n    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,700" as="style">\n    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">\n    <link rel="stylesheet" href="/styles/main.css">\n</head>\n<body>\n    <a href="#maincontent" class="skip-link">Skip to content</a>\n    <nav aria-label="Main navigation" class="sticky-nav">\n        <ul>\n            <li><a href="#hero">Home</a></li>\n            <li><a href="#feed">Live Feed</a></li>\n            <li><a href="#grid">Content Pillars</a></li>\n            <li><a href="#story">Ava's Story</a></li>\n            <li><a href="#signup">Newsletter Signup</a></li>\n            <li><a href="#platforms">Platforms</a></li>\n        </ul>\n    </nav>\n    <header id="hero">\n        <img src="/images/ava-portrait.png" alt="Ava Quantum Portrait" class="floating-portrait">\n        <div class="status-pill animated">Status: Online</div>\n    </header>\n    <main id="maincontent">\n        <section id="feed">\n            <h2>Live Feed</h2>\n            <script>\n                fetch('/data/feed.json')\n                    .then(response => response.json())\n                    .then(data => {\n                        // Code to render the live feed\n                    });\n            <\/script>\n        </section>\n        <section id="grid">\n            <h2>Content Pillars</h2>\n            <div class="grid">\n                <!-- Content Pillars go here -->\n            </div>\n        </section>\n        <section id="story">\n            <h2>Ava's Story</h2>\n            <p><!-- Ava's story content goes here --></p>\n        </section>\n        <section id="signup">\n            <h2>Sign Up for Our Newsletter</h2>\n            <form action="https://beehiiv.com/signup" method="POST">\n                <input type="email" name="email" placeholder="Your email" required>\n                <button type="submit">Subscribe</button>\n            </form>\n        </section>\n        <section id="platforms">\n            <h2>Platforms</h2>\n            <p><!-- Platforms details go here --></p>\n        </section>\n    </main>\n    <footer>\n        <p>Follow us on social media: <!-- Social Links --> </p>\n        <p>© 2026 Boris Hardi</p>\n    </footer>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AvaQuantum - Your quantum computing solution provider.">
+    <meta name="keywords" content="Quantum Computing, AvaQuantum, Technology">
+    <meta name="author" content="BoHaMuc">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://avaquantum.com/">
+    <meta property="og:title" content="AvaQuantum">
+    <meta property="og:description" content="Revolutionizing Quantum Computing."/>
+    <meta property="og:image" content="https://avaquantum.com/image.jpg"/>
+    <meta property="og:url" content="https://avaquantum.com/"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AvaQuantum">
+    <meta name="twitter:description" content="Revolutionizing Quantum Computing.">
+    <meta name="twitter:image" content="https://avaquantum.com/image.jpg"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    <link rel="preload" href="/images/hero.jpg" as="image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AvaQuantum",
+      "url": "https://avaquantum.com/",
+      "author": {
+        "@type": "Organization",
+        "name": "BoHaMuc"
+      }
+    }
+    </script>
+    <title>AvaQuantum - Quantum Computing Solutions</title>
+</head>
+<body>
+    <a href="#mainContent" class="skip-link">Skip to content</a>
+    <header role="banner">
+        <nav role="navigation">
+            <img src="/logo.png" alt="AvaQuantum Logo" aria-label="Site Logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainContent">
+        <section class="hero">
+            <h1>Welcome to AvaQuantum</h1>
+            <div class="animated-pill">Quantum Solutions</div>
+            <img src="/images/ava.jpg" alt="Ava's Portrait">
+        </section>
+        <section class="live-card">
+            <!-- This will fetch data from /data/latest.json -->
+        </section>
+        <section class="cta">
+            <a href="https://linkedin.com/company/avquantum">Join us on LinkedIn</a>
+            <a href="#newsletter">Subscribe to our Newsletter</a>
+        </section>
+        <section class="stats-bar">
+            <!-- Statistics will be dynamically populated -->
+        </section>
+        <section class="live-feed">
+            <!-- Dynamic feed from /data/feed.json -->
+        </section>
+        <section class="content-pillar-grid">
+          <!-- Content pillars with 6 cards -->
+        </section>
+        <section id="about" class="about-story">
+            <h2>Ava's Story</h2>
+            <div class="split-layout">
+                <div class="timeline">
+                    <!-- Timeline content -->
+                </div>
+            </div>
+        </section>
+        <section id="newsletter" class="newsletter-signup">
+            <h2>Sign up for our Newsletter</h2>
+            <form action="https://your-beehiiv-link.com" method="post">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="platforms">
+            <h3>Follow us on</h3>
+            <a href="https://twitter.com/avaquantum">Twitter</a>
+            <a href="https://linkedin.com/company/avquantum">LinkedIn</a>
+            <a href="https://facebook.com/avaquantum">Facebook</a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2026 AvaQuantum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
